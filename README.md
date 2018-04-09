@@ -28,15 +28,8 @@ Extensions
 - xmlwriter
 - sockets
 - zip
-- pgsql
 - mysqli
-- oci8
-- sqlsrv *(PHP 7.0 or above)*
-- pdo_sqlsrv *(PHP 7.0 or above)*
-- pdo_pgsql
 - pdo_mysql
-- pdo_oci
-- pdo_dblib
 - pdo_sqlite
 - memcached
 - redis
@@ -55,3 +48,12 @@ Resources
 - vim
 - git
 - unzip
+
+Build
+---------
+
+```
+  # build 5.6 image
+  cd 5.6
+  docker build -t merorafael/docker-php:5.6 .
+```
